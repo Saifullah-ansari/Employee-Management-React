@@ -1,0 +1,439 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+/* Navbar */
+
+/* #nav {
+  background-color: #333;
+  overflow: hidden;
+  text-align: center; 
+}
+
+#nav a {
+  display: inline-block; 
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#nav a:hover {
+  background-color: #ddd;
+  color: black;
+} */
+
+/* createUser */
+
+/* .Myform {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.head {
+  text-align: center;
+}
+
+.Myform div {
+  margin-bottom: 15px;
+}
+
+.Myform label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.Myform input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.btn {
+  text-align: center;
+}
+
+.btn button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn button:hover {
+  background-color: #45a049;
+} */
+
+/* Users */
+
+/* #profile {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: #fff;
+  transition: box-shadow 0.3s ease-in-out;
+
+  &:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+
+  div {
+    margin-bottom: 10px;
+  }
+
+  strong {
+    font-weight: bold;
+  }
+
+  .actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+
+  button {
+    padding: 8px 16px;
+    background-color: #49bd4d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #45a049;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+} */
+
+/* 
+Edituser */
+/* 
+.Myform {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.head {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease-in-out;
+}
+
+input:focus {
+  outline: none;
+  border-color: #4caf50;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #45a049;
+} */
+
+
+
+
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar */
+#nav {
+  background-color: #333;
+  overflow: hidden;
+  text-align: center;
+}
+
+#nav a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Form styling */
+.Myform {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.head {
+  text-align: center;
+}
+
+.Myform div {
+  margin-bottom: 15px;
+}
+
+.Myform label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.Myform input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+/* Button styling */
+.btn {
+  text-align: center;
+}
+
+.btn button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn button:hover {
+  background-color: #45a049;
+}
+
+/* Users profile card styling */
+#profile {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: #f2f2f2;
+  transition: box-shadow 0.3s ease-in-out;
+
+  &:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+
+  div {
+    margin-bottom: 10px;
+  }
+
+  strong {
+    font-weight: bold;
+  }
+
+  .actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+
+  button {
+    padding: 8px 16px;
+    background-color: #49bd4d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #45a049;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+/* Edituser form styling */
+.Myform {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.head {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease-in-out;
+}
+
+input:focus {
+  outline: none;
+  border-color: #4caf50;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+.link:hover{
+  color: white !important;
+  background-color: red !important;
+
+}
+
+
+
+.sec {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+
+.sec h1 {
+  color: #333;
+}
+
+.sec p {
+  color: #666;
+  font-size: 18px;
+}
+
+
+
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px 0; 
+  margin-top: 240px;
+}
+
+.footerContent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerSection {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.footerBottom {
+  margin-top: 20px;
+  margin-left: 12px;
+}
+
+.footer a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.contact:hover{
+  background-color: red;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  .footerContent {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footerSection {
+    flex: 1;
+    width: 100%;
+    text-align: center;
+  }
+
+  .footerSection:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
